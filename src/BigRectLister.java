@@ -17,7 +17,7 @@ public class BigRectLister {
         rect.add(new Rectangle(1, 2));
         rect.add(new Rectangle(1, 1));
         rect.add(new Rectangle(4, 2));
-        rect.add(new Rectangle(6, 3));
+        rect.add(new Rectangle(2, 3));
 
         for (Rectangle r : rect)
         {

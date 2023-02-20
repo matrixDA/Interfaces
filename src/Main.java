@@ -9,7 +9,7 @@ public class Main
         BigRectFilter lister = new BigRectFilter();
 
         ArrayList <String> line = new ArrayList<>();
-        line.add(new String("Hello"));
+        line.add(new String("Hello "));
         line.add(new String("my"));
         line.add(new String("name"));
         line.add(new String("is"));
@@ -18,6 +18,14 @@ public class Main
         line.add(new String("I"));
         line.add(new String("like"));
         line.add(new String("Apples"));
+
+        ArrayList <Rectangle> rect = new ArrayList<>();
+        rect.add(new Rectangle(5, 4));
+        rect.add(new Rectangle(5, 6));
+        rect.add(new Rectangle(1, 2));
+        rect.add(new Rectangle(1, 1));
+        rect.add(new Rectangle(3, 2));
+        rect.add(new Rectangle(6, 3));
 
         String[] fields;
         for (String l:line)
@@ -31,14 +39,6 @@ public class Main
                 }
             }
         }
-
-        ArrayList <Rectangle> rect = new ArrayList<>();
-        rect.add(new Rectangle(5, 4));
-        rect.add(new Rectangle(5, 6));
-        rect.add(new Rectangle(1, 2));
-        rect.add(new Rectangle(1, 1));
-        rect.add(new Rectangle(3, 2));
-        rect.add(new Rectangle(6, 3));
 
         System.out.println();
         for (Rectangle r: rect)
